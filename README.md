@@ -22,6 +22,6 @@ Built using HTML, CSS, and JavaScript.<br>
 
 <strong>JavaScript:<strong> For handling the conversion logic and interactivity.<br>
 <strong>Live Demo<strong> :<br>
-https://rachitkumar74.github.io/Single-Precision/
+https://rachitkumar74.github.io/Single-Precision/<br>
 <strong>Acknowledgments:<strong><br>
 This project was created under the guidance of Dr. Alkash Agarwal ❤ Developed with dedication by Rachit Kumar Connect with me on LinkedIn.
