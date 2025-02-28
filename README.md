@@ -21,7 +21,7 @@ HTML: For the structure of the tool.<br>
 CSS: For styling and layout.<br>
 
 JavaScript: For handling the conversion logic and interactivity.<br>
-live Demo :<br>
+<strong>Live Demo<strong> :<br>
 https://rachitkumar74.github.io/Single-Precision/
 
 Acknowledgments<br>
