@@ -14,9 +14,9 @@ Hexadecimal equivalent.<br>
 
 Provides a clean, user-friendly, and professional interface.<br>
 
-Built using HTML, CSS, and JavaScript.
-Technologies Used <br>
-HTML: For the structure of the tool.
+Built using HTML, CSS, and JavaScript.<br>
+Technologies Used: <br>
+HTML: For the structure of the tool.<br>
 
 CSS: For styling and layout.<br>
 
