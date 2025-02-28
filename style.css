@@ -14,16 +14,18 @@ header {
 }
 
 .container {
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
     max-width: 400px;
+    padding: 0 15px; /* Add padding for smaller screens */
 }
 
 input {
     padding: 10px;
     font-size: 16px;
-    width: 80%;
+    width: 100%; /* Full width on mobile */
     margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
 button {
@@ -34,6 +36,8 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 10px;
 }
 
 button:hover {
@@ -41,12 +45,13 @@ button:hover {
 }
 
 #output {
-    margin: 30px auto;
+    margin: 20px auto;
     max-width: 600px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left for better readability */
 }
 
 footer {
@@ -55,4 +60,34 @@ footer {
     background-color: #007BFF;
     color: #fff;
     margin-top: 30px;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px; /* Wider container for tablets and desktops */
+    }
+
+    input {
+        width: 60%; /* Adjust input width for larger screens */
+    }
+
+    button {
+        width: auto; /* Auto width for buttons on larger screens */
+        padding: 10px 30px;
+    }
+
+    #output {
+        padding: 30px; /* More padding for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 800px; /* Even wider container for desktops */
+    }
+
+    input {
+        width: 50%; /* Adjust input width for desktops */
+    }
 }
